@@ -42,6 +42,9 @@ deps = {
   "src/ipc":
     Var("chrome_base") + "/src/ipc@" + Var("chrome_revision"),
 
+  "src/net":
+    Var("chrome_base") + "/src/net@" + Var("chrome_revision"),
+
   "src/third_party/apple_apsl":
     Var("chrome_base") + "/src/third_party/apple_apsl@" +
         Var("chrome_revision"),
@@ -65,6 +68,12 @@ deps = {
         Var("chrome_revision"),
   "src/third_party/modp_b64":
     Var("chrome_base") + "/src/third_party/modp_b64@" +
+        Var("chrome_revision"),
+  "src/third_party/libxml":
+    Var("chrome_base") + "/src/third_party/libxml@" +
+        Var("chrome_revision"),
+  "src/third_party/zlib":
+    Var("chrome_base") + "/src/third_party/zlib@" +
         Var("chrome_revision"),
 
   "src/testing":
